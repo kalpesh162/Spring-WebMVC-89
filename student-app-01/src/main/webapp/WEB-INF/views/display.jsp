@@ -6,9 +6,15 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<body>
+<body bgcolor="yellow">
 
-<h1 style="color: blue; font-family: cursive;" >Hello World</h1>
+   <h1>
+   		${sid}  <br>
+   		${sname}  <br>
+   		${smarks}  <br>
+  
+   </h1>
+
 
 </body>
 </html>

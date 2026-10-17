@@ -3,7 +3,7 @@
 	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
 	id="WebApp_ID" version="4.0">
-	<display-name>HelloApp-01</display-name>
+	<display-name>student-app-01</display-name>
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 		<welcome-file>index.jsp</welcome-file>
@@ -19,6 +19,20 @@
 	<servlet>
 		<servlet-name>spring</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+
+		<init-param>
+			<param-name>contextClass</param-name>
+			<param-value>
+                org.springframework.web.context.support.AnnotationConfigWebApplicationContext
+            </param-value>
+		</init-param>
+
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>com.config.WebMvcConfig</param-value>
+		</init-param>
+
+
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 
@@ -26,6 +40,4 @@
 		<servlet-name>spring</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
-
-
 </web-app>
