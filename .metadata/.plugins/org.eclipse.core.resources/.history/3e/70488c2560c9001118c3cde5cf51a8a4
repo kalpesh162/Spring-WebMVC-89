@@ -1,0 +1,9 @@
+package com.controller;
+
+public class HelloController {
+	
+	public String helloPage() {
+		return "welcome"
+	}
+
+}
