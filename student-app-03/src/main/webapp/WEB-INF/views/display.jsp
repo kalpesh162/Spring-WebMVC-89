@@ -9,12 +9,10 @@
 <body bgcolor="yellow">
 
 	<h1>
-		${stud.id}  <br>
-		${stud.name}  <br>
-		${stud.marks}  <br>
+		${stud.id} <br> ${stud.name} <br> ${stud.marks} <br>
 
-	</h1>s
+	</h1>
 
-	
+
 </body>
 </html>

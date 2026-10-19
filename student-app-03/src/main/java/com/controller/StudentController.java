@@ -13,7 +13,6 @@ public class StudentController {
 
 	@RequestMapping("/open")
 	public String openForm() {
-
 		return "studform";
 	}
 
