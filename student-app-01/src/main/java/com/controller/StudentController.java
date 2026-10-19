@@ -28,7 +28,9 @@ public class StudentController {
 		model.addAttribute("sid", id);
 		model.addAttribute("sname", name);
 		model.addAttribute("smarks", marks);
-
+		System.out.println("------ OR -------");
+		request.setAttribute("id1", id);		
+		
 		return "display";
 	}
 

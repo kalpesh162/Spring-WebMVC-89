@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,13 +8,19 @@
 </head>
 <body bgcolor="yellow">
 
-   <h1>
-   		${sid}  <br>
-   		${sname}  <br>
-   		${smarks}  <br>
-  
-   </h1>
+	<h1>
+		${sid} <br> ${sname} <br> ${smarks} <br>
 
+	</h1>
+
+	<hr>
+
+	<%= request.getAttribute("id1") %>
+	<hr>
+	
+	  <h1>
+	  ${requestScope.id1 }
+	  </h1>
 
 </body>
 </html>
