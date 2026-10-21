@@ -147,3 +147,23 @@
 2026-10-19 12:59:25.820: [INFO] BookmarksLoadDropped droppedNodes=0
 2026-10-19 12:59:25.820: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
 2026-10-19 13:02:19.965: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-21 12:21:45.973: [INFO] CurrentProfilePath: E:\SpringWEBMVC-89\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-21 12:21:45.973: [INFO] Profiles total count: 1
+2026-10-21 12:21:45.974: [INFO] Profile: name=Profile 1 path=E:\SpringWEBMVC-89\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-16T11:52:11.073Z
+2026-10-21 12:21:45.974: [INFO] LastUsedProfileDir: E:\SpringWEBMVC-89\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-21 12:21:45.974: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=E:\SpringWEBMVC-89\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-16T11:52:11.073Z
+2026-10-21 12:21:45.974: [INFO] OnDoneLoading sync enabled: 0
+2026-10-21 12:21:45.974: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-21 12:21:45.974: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-21 12:21:45.974: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-21 12:35:04.206: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-21 12:35:48.752: [INFO] CurrentProfilePath: E:\SpringWEBMVC-89\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-21 12:35:48.753: [INFO] Profiles total count: 1
+2026-10-21 12:35:48.753: [INFO] Profile: name=Profile 1 path=E:\SpringWEBMVC-89\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-16T11:52:11.073Z
+2026-10-21 12:35:48.753: [INFO] LastUsedProfileDir: E:\SpringWEBMVC-89\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-21 12:35:48.753: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=E:\SpringWEBMVC-89\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-16T11:52:11.073Z
+2026-10-21 12:35:48.753: [INFO] OnDoneLoading sync enabled: 0
+2026-10-21 12:35:48.753: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-21 12:35:48.753: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-21 12:35:48.753: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-21 13:32:51.900: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
