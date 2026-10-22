@@ -6,8 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import com.bean.Student;
 import com.service.StudentService;
@@ -33,16 +35,37 @@ public class StudentController {
 	public String saveStudent(@ModelAttribute("student") Student student) {
 		System.out.println(student);
 		service.enrolledStudent(student);
-		return "display";
+
+		return "redirect:/student/read";
 	}
-	
-	
-	@RequestMapping(value = "/read" , method = RequestMethod.GET)
+
+	@RequestMapping(value = "/read", method = RequestMethod.GET)
 	public String showAllStuents(Model model) {
 		// all students
-		List<Student> students=service.getAllStudents();
+		List<Student> students = service.getAllStudents();
 		model.addAttribute("students", students);
 		return "display";
 	}
-
+	/*
+	//http://localhost:8080/student-app-05/student/delete?id=1
+	@RequestMapping(value = "/delete", method = RequestMethod.GET)
+	public String deleteRecord(@RequestParam("id") int id) {
+		System.out.println("---> "+id);
+		service.removeStudentById(id);
+		return "redirect:/student/read";
+		
+	}
+   */
+	
+	//http://localhost:8080/student-app-05/student/delete/5
+	// @PathVariable
+	//value = "/delete{id}"
+		
+	@RequestMapping(value = "/delete/{id}", method = RequestMethod.GET)
+		public String deleteRecord(@PathVariable("id") int id) {
+			System.out.println("---> "+id);
+			service.removeStudentById(id);
+			return "redirect:/student/read";
+			
+		}
 }
