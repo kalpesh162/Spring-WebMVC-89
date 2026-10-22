@@ -34,7 +34,7 @@
 			<td><%= student.getMarks() %></td>
 
 
-			<td><b> <%= "<a style='color:green ; text-decoration:none '   href='updateform?id="+student.getId()+"'>"+"UPDATE"+ "</a>" %>
+			<td><b> <%= "<a style='color:green ; text-decoration:none '   href='updateform/"+student.getId()+"'>"+"UPDATE"+ "</a>" %>
 			</b></td>
 
 			<td></b> <%= "<a style='color:red ; text-decoration:none '   href='delete/"+student.getId()+"'>"+"DELETE"+ "</a>" %>

@@ -52,7 +52,7 @@ public class StudentRepositoryImpl implements StudentRepository {
 		String sql = "SELECT id, name, marks FROM student WHERE id = ?";
 
 		Student student = jdbcTemplate.queryForObject(sql, new BeanPropertyRowMapper<Student>(Student.class), id);
-		return null;
+		return student;
 	}
 
 	@Override

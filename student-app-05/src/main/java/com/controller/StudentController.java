@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
 
 import com.bean.Student;
 import com.service.StudentService;
@@ -47,25 +46,50 @@ public class StudentController {
 		return "display";
 	}
 	/*
-	//http://localhost:8080/student-app-05/student/delete?id=1
-	@RequestMapping(value = "/delete", method = RequestMethod.GET)
-	public String deleteRecord(@RequestParam("id") int id) {
-		System.out.println("---> "+id);
+	 * //http://localhost:8080/student-app-05/student/delete?id=1
+	 * 
+	 * @RequestMapping(value = "/delete", method = RequestMethod.GET) public String
+	 * deleteRecord(@RequestParam("id") int id) { System.out.println("---> "+id);
+	 * service.removeStudentById(id); return "redirect:/student/read";
+	 * 
+	 * }
+	 */
+
+	// http://localhost:8080/student-app-05/student/delete/5
+	// @PathVariable
+	// value = "/delete{id}"
+
+	@RequestMapping(value = "/delete/{id}", method = RequestMethod.GET)
+	public String deleteRecord(@PathVariable("id") int id) {
+		System.out.println("---> " + id);
 		service.removeStudentById(id);
 		return "redirect:/student/read";
-		
+
 	}
-   */
-	
-	//http://localhost:8080/student-app-05/student/delete/5
-	// @PathVariable
-	//value = "/delete{id}"
+
+	@RequestMapping(value = "/updateform/{id}", method = RequestMethod.GET)
+	public String updateRecord(@PathVariable("id") int id, Model model) {
+
+		System.out.println("Upadte form   ---->  " + id);
+
+		Student student = service.getStudentById(id);
+		System.out.println("update Student   ---> " + student);
+		model.addAttribute("student", student);
+
+		return "updateform";
+
+	}
+
+	@RequestMapping(value = "/update", method = RequestMethod.POST)
+	public String updateRecordFinal(@ModelAttribute("student") Student student) {
+
+		System.out.println("--->"+student);
 		
-	@RequestMapping(value = "/delete/{id}", method = RequestMethod.GET)
-		public String deleteRecord(@PathVariable("id") int id) {
-			System.out.println("---> "+id);
-			service.removeStudentById(id);
-			return "redirect:/student/read";
-			
-		}
+		service.modifyStudent(student.getId(), student);
+		
+
+		return "redirect:/student/read";
+
+	}
+
 }

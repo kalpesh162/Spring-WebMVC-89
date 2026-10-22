@@ -187,3 +187,33 @@
 2026-10-22 12:03:46.036: [INFO] BookmarksLoadDropped droppedNodes=0
 2026-10-22 12:03:46.036: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
 2026-10-22 12:33:43.212: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-22 12:43:37.933: [INFO] CurrentProfilePath: E:\SpringWEBMVC-89\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-22 12:43:37.933: [INFO] Profiles total count: 1
+2026-10-22 12:43:37.933: [INFO] Profile: name=Profile 1 path=E:\SpringWEBMVC-89\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-16T11:52:11.073Z
+2026-10-22 12:43:37.933: [INFO] LastUsedProfileDir: E:\SpringWEBMVC-89\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-22 12:43:37.933: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=E:\SpringWEBMVC-89\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-16T11:52:11.073Z
+2026-10-22 12:43:37.933: [INFO] OnDoneLoading sync enabled: 0
+2026-10-22 12:43:37.933: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-22 12:43:37.933: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-22 12:43:37.933: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-22 12:54:10.925: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-22 12:55:21.470: [INFO] CurrentProfilePath: E:\SpringWEBMVC-89\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-22 12:55:21.470: [INFO] Profiles total count: 1
+2026-10-22 12:55:21.470: [INFO] Profile: name=Profile 1 path=E:\SpringWEBMVC-89\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-16T11:52:11.073Z
+2026-10-22 12:55:21.470: [INFO] LastUsedProfileDir: E:\SpringWEBMVC-89\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-22 12:55:21.470: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=E:\SpringWEBMVC-89\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-16T11:52:11.073Z
+2026-10-22 12:55:21.470: [INFO] OnDoneLoading sync enabled: 0
+2026-10-22 12:55:21.470: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-22 12:55:21.470: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-22 12:55:21.470: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-22 12:55:28.670: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-22 12:55:44.103: [INFO] CurrentProfilePath: E:\SpringWEBMVC-89\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-22 12:55:44.103: [INFO] Profiles total count: 1
+2026-10-22 12:55:44.104: [INFO] Profile: name=Profile 1 path=E:\SpringWEBMVC-89\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-16T11:52:11.073Z
+2026-10-22 12:55:44.104: [INFO] LastUsedProfileDir: E:\SpringWEBMVC-89\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-22 12:55:44.104: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=E:\SpringWEBMVC-89\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-16T11:52:11.073Z
+2026-10-22 12:55:44.104: [INFO] OnDoneLoading sync enabled: 0
+2026-10-22 12:55:44.104: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-22 12:55:44.104: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-22 12:55:44.104: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-22 13:25:38.323: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
