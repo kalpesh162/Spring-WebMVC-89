@@ -1,7 +1,10 @@
 package com.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -30,6 +33,15 @@ public class StudentController {
 	public String saveStudent(@ModelAttribute("student") Student student) {
 		System.out.println(student);
 		service.enrolledStudent(student);
+		return "display";
+	}
+	
+	
+	@RequestMapping(value = "/read" , method = RequestMethod.GET)
+	public String showAllStuents(Model model) {
+		// all students
+		List<Student> students=service.getAllStudents();
+		model.addAttribute("students", students);
 		return "display";
 	}
 
