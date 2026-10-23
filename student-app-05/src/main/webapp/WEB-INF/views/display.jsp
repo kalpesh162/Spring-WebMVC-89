@@ -7,7 +7,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Student Record</title>
-<link rel="stylesheet" href="./css/table.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/table.css">
 
 </head>
 <body>

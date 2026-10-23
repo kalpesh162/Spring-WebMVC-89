@@ -1,0 +1,22 @@
+@charset "UTF-8";
+@charset "UTF-8";
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #DDD;
+}
+
+tr:hover {background-color: #D6EEEE;}
+
+#a1 {
+  color: hotpink;
+  background-color: yellow;
+  font-weight: bold;
+  text-decoration: none;
+}

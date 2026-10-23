@@ -6,6 +6,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Student Details Form</title>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/form.css">
 </head>
 <body>
 
